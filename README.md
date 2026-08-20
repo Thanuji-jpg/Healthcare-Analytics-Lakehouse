@@ -5,7 +5,7 @@ An end-to-end healthcare data pipeline built on Azure Databricks, with Unity Cat
 Raw healthcare data (patients, doctors, encounters, diagnoses, procedures, medications, appointments, billing, departments, insurance providers) flows through a Bronze, Silver, Gold medallion architecture and lands in a Power BI dashboard covering operational, financial, and clinical views.
 
 
-##Why this project exists
+## Why this project exists
 
 Healthcare data is sensitive by nature. Most data engineering portfolio projects skip governance entirely and jump straight to transformations and dashboards. This project flips that: Unity Catalog isn't an afterthought here, it's the centerpiece. Every table lives in a governed catalog with role-based access, every read and write is logged, and lineage traces automatically from raw ingestion to the dashboards a hospital administrator or CFO would actually use.
 
