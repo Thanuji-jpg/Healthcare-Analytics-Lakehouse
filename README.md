@@ -1,4 +1,4 @@
-Healthcare Analytics Lakehouse
+## Healthcare Analytics Lakehouse
 
 An end-to-end healthcare data pipeline built on Azure Databricks, with Unity Catalog as the governance layer from day one, not bolted on after the fact.
 
