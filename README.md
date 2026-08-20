@@ -29,14 +29,13 @@ Power BI
 
 Unity Catalog governance, access control, and lineage run across every layer of the lakehouse, not just at the edges.
 
-Tech stack
-Ingestion & orchestration: Azure Data Factory
-Storage: Azure Data Lake Storage Gen2 (raw, bronze, silver, gold containers)
-Processing: Azure Databricks (PySpark, Spark SQL)
-Governance: Databricks Unity Catalog (Access Connector, Storage Credential, External Locations, catalog/schema/table hierarchy, RBAC via managed identity, audit logging, data lineage)
-Storage format: Delta Lake
-Serving: Databricks Gold tables queried directly, no separate warehouse layer
-Reporting: Power BI
+- **Ingestion & orchestration**: Azure Data Factory
+- **Storage**: Azure Data Lake Storage Gen2 (raw, bronze, silver, gold containers)
+- **Processing**: Azure Databricks (PySpark, Spark SQL)
+- **Governance**: Databricks Unity Catalog (Access Connector, Storage Credential, External Locations, catalog/schema/table hierarchy, RBAC via managed identity, audit logging, data lineage)
+- **Storage format**: Delta Lake
+- **Serving**: Databricks Gold tables queried directly, no separate warehouse layer
+- **Reporting**: Power BI
 
 Bronze lands raw data with no cleaning, just schema enforcement and metadata.
 
