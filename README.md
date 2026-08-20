@@ -65,14 +65,14 @@ Ten source datasets flow through the pipeline: patients, doctors, encounters, di
 - **Automatic lineage** tracing a dashboard all the way back to the raw file it came from
 - **Managed identity access** from Databricks to ADLS, no credentials hardcoded in notebooks
 
-##Built in Power BI from the Gold layer, covering:
+## Built in Power BI from the Gold layer, covering:
 
 Patient 360 (high-risk patients, frequent visitors, cost drivers)
 Department and doctor performance
 Financial metrics and revenue trends
 Appointment and diagnosis trends
 
-##Repository structure
+## Repository structure
 
 ```text
 ├── notebooks/
